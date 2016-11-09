@@ -1,0 +1,29 @@
+{
+  "name": "magic_8_ball_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shinybirdy/magic_8_ball_js.git"
+  },
+  "keywords": [
+    "javascript",
+    "game"
+  ],
+  "author": "shinybirdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shinybirdy/magic_8_ball_js/issues"
+  },
+  "homepage": "https://github.com/Shinybirdy/magic_8_ball_js#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0"
+  }
+}
